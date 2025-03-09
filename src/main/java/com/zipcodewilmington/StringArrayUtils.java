@@ -83,15 +83,20 @@ public class StringArrayUtils {
      * @return true if each letter in the alphabet has been used in the array
      */ // TODO
     public static boolean isPangramic(String[] array) {
-         String value = "abcdefghijklmnopqrstuvwxyz";
-        for (int i = 0; i < array.length; i++) {
-            if(array[i].contains(value) ){
+        String value = "abcdefghijklmnopqrstuvwxyz";
+
+
+        for (int i = 0; i < array.length-1; i++) {
+            if (array[i].contains(value)) {
 
             }
+
+
+
+            return true;
         }
 
-
-        return true;
+        return false;
     }
 ;
     /**
@@ -109,7 +114,9 @@ public class StringArrayUtils {
      * @return array with identical contents excluding values of `value`
      */ // TODO
     public static String[] removeValue(String[] array, String valueToRemove) {
-
+       //create new array list
+        //do removal with that list
+        // return result back to an array
 //
             return null;
     }
