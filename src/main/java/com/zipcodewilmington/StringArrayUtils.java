@@ -59,7 +59,15 @@ public class StringArrayUtils {
      * @return an array with identical contents in reverse order
      */ // TODO
     public static String[] reverse(String[] array) {
-        return null;
+
+        for (int i = 0; i < array.length / 2; i++) {
+
+        String temp = array[i];
+        array[i] = array[array.length - 1 - i];
+        array[array.length - i -1] = temp;
+        }
+
+        return array;
     }
 
     /**
@@ -78,12 +86,12 @@ public class StringArrayUtils {
          String value = "abcdefghijklmnopqrstuvwxyz";
         for (int i = 0; i < array.length; i++) {
             if(array[i].contains(value) ){
-               return true;
+
             }
         }
 
 
-        return false;
+        return true;
     }
 ;
     /**
@@ -102,7 +110,14 @@ public class StringArrayUtils {
      */ // TODO
     public static String[] removeValue(String[] array, String valueToRemove) {
 
-        return null;
+//        String [] array_new = String int[array.length-1];
+//        int j=3;
+//        for(int i=0, k=0;i<array.length;i++){
+//            if(i!=j){
+//                arr_new[k]=arr[i];
+//                k++;
+//            }
+            return null;
     }
 
     /**
