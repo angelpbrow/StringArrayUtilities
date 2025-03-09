@@ -75,9 +75,17 @@ public class StringArrayUtils {
      * @return true if each letter in the alphabet has been used in the array
      */ // TODO
     public static boolean isPangramic(String[] array) {
+         String value = "abcdefghijklmnopqrstuvwxyz";
+        for (int i = 0; i < array.length; i++) {
+            if(array[i].contains(value) ){
+               return true;
+            }
+        }
+
+
         return false;
     }
-
+;
     /**
      * @param array array of String objects
      * @param value value to check array for
