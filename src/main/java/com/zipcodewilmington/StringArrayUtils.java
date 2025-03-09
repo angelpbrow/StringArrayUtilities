@@ -110,13 +110,7 @@ public class StringArrayUtils {
      */ // TODO
     public static String[] removeValue(String[] array, String valueToRemove) {
 
-//        String [] array_new = String int[array.length-1];
-//        int j=3;
-//        for(int i=0, k=0;i<array.length;i++){
-//            if(i!=j){
-//                arr_new[k]=arr[i];
-//                k++;
-//            }
+//
             return null;
     }
 
